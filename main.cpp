@@ -1,3 +1,4 @@
+//begin
 #include <iostream>
 #include <cstdlib>
 #include <termios.h>
@@ -52,6 +53,10 @@ bool check_victory(char matrix[3][3], char matrix_orderned[3][3]) {
     return true;
 }
 
+void text_to_speech(const std::string &text) {
+    std::string command = "espeak \"" + text + "\"";
+    system(command.c_str());
+}
 
 void display_matrix(int moves) {
     std::cout << "\033[31m╔═════╦═════╦═════╗\033[0m\n";
@@ -66,12 +71,11 @@ void display_matrix(int moves) {
     }
     std::cout << "\033[31m╚═════╩═════╩═════╝\033[0m\n";
     std::cout << "\033[33mMovimentos realizados: " << moves << "\033[0m\n";
+    
+    
 }
 
-void text_to_speech(const std::string &text) {
-    std::string command = "espeak \"" + text + "\"";
-    system(command.c_str());
-}
+
 
 
 int main() {
@@ -80,6 +84,7 @@ int main() {
 
     while (true) {
         std::system("clear");
+        
         display_matrix(moves);
         // std::cout << "Use the arrows to move (_).\n";
 
