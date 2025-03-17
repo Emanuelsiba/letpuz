@@ -75,7 +75,7 @@ void display_matrix(int moves) {
             std::cout << "\033[34m╠═════╬═════╬═════╣\033[0m\n";
     }
     std::cout << "\033[31m╚═════╩═════╩═════╝\033[0m\n";
-    std::cout << "\033[33mMovimentos realizados: " << moves << "\033[0m\n";
+    std::cout << "\033[33mMovements performed: " << moves << "\033[0m\n";
     
     
 }
