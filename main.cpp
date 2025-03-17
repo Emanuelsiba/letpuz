@@ -1,4 +1,5 @@
 //begin
+
 #include <iostream>
 #include <cstdlib>
 #include <termios.h>
@@ -7,11 +8,6 @@
 #include <random>
 #include <algorithm>
 
-// char matrix[3][3] = {
-//     {'a', 'b', 'c'},
-//     {'d', 'e', 'f'},
-//     {'g', '_', 'h'}
-// };
 
 
 char matrix[3][3];
