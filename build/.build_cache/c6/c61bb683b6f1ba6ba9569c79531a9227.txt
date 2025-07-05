@@ -1,0 +1,11 @@
+{
+    errdata = "\27[01m\27[Ksrc/matrix.cpp:\27[m\27[K In function ‘\27[01m\27[Kvoid\27[01;32m\27[K text_to_speech\27[m\27[K(const std::string&)\27[m\27[K’:\
+\27[01m\27[Ksrc/matrix.cpp:61:11:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kignoring return value of ‘\27[01m\27[Kint\27[01;32m\27[K system\27[m\27[K(const char*)\27[m\27[K’ declared with attribute ‘\27[01m\27[Kwarn_unused_result\27[m\27[K’ [\27[01;35m\27[K-Wunused-result\27[m\27[K]\
+   61 |     \27[01;35m\27[Ksystem(command.c_str())\27[m\27[K;\
+      |     \27[01;35m\27[K~~~~~~^~~~~~~~~~~~~~~~~\27[m\27[K\
+\27[01m\27[Ksrc/matrix.cpp:\27[m\27[K In function ‘\27[01m\27[Kvoid\27[01;32m\27[K start\27[m\27[K()\27[m\27[K’:\
+\27[01m\27[Ksrc/matrix.cpp:110:20:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kignoring return value of ‘\27[01m\27[Kint\27[01;32m\27[K system\27[m\27[K(const char*)\27[m\27[K’ declared with attribute ‘\27[01m\27[Kwarn_unused_result\27[m\27[K’ [\27[01;35m\27[K-Wunused-result\27[m\27[K]\
+  110 |         \27[01;35m\27[Kstd::system(\"clear\")\27[m\27[K;\
+      |         \27[01;35m\27[K~~~~~~~~~~~^~~~~~~~~\27[m\27[K\
+"
+}

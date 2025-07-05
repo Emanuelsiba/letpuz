@@ -1,4 +1,3 @@
-//begin
 
 #include <iostream>
 #include <cstdlib>
@@ -7,6 +6,8 @@
 #include <vector>
 #include <random>
 #include <algorithm>
+#include "/home/qwerty/Documents/khebwkb/letpuz/include/matrix.hpp"
+
 
 
 
@@ -17,9 +18,6 @@ char matrix_orderned[3][3] = {
     {'d', 'e', 'f'},
     {'g', 'h', '_'}
 };
-
-
-
 
 
 
@@ -103,13 +101,9 @@ void shuffle_matrix() {
     } while (check_victory(matrix, matrix_orderned)); 
 }
 
+void start(){
 
-
-
-
-int main() {
-
-    int moves = 0;
+     int moves = 0;
     shuffle_matrix();
 
     while (true) {
@@ -157,9 +151,4 @@ int main() {
             moves++;
         
     }
-
-    return 0;
 }
-
-
-//end//
